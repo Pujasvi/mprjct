@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" href= "css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Rancho|Dancing+Script|Black+Ops+One|Kaushan+Script|Ewert|Monofett|Bree+Serif&effect=shadow-multiple|3d-float|3d">
+
+
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #nav{
+
+            height:200px;
+            width: 1300px;
+            padding: 1px;
+            position:fixed;
+            z-index: 10;
+        }
+        #logo{
+            background-color: crimson;
+            height:100px;
+            width:100px;
+            border-radius: 50px;
+            color:white;
+            text-align: center;
+            padding: 1px;
+margin-left: 20px;
+
+            margin-top: 10px;
+        }
+        #logo_text{
+
+            position:absolute;
+            margin-top:40px ;
+            margin-left: -40px ;
+        }
+        nav{
+            margin-top: 50px;
+            font-size:17px ;
+
+        }
+        #try{
+color:white;
+            height:100px;
+            width:200px;
+            margin-top: 50px;
+            font-size: 17px;
+        }
+        #back_image{
+            padding:1px;
+            background-image: url("./pics/pic2.jpg");
+            height:700px;
+            width:1300px;
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+
+        #side{margin-top: 250px;
+            height:60px;
+            width:700px;
+color:white;
+            font-size: 40px;
+            animation:example 3s  linear 0s ;
+            animation-fill-mode: forwards;
+font-weight: bold;
+
+        }
+        #side2{
+            margin-top:10px ;
+            color:ghostwhite;
+            height:60px;
+            width:700px;
+            font-size: 40px;
+           animation:example2 3s linear 1s;
+            animation-fill-mode: forwards;
+          font-weight: bold;
+
+
+
+        }
+       /* #side3{
+            margin-top: 10px;
+            color:brown;
+            font-size: 40px;
+            height:60px;
+            width:700px;
+            font-weight: bold;
+            animation:example3 3s linear 2s;
+            animation-fill-mode: forwards;
+        }
+*/
+#lower{
+    height:2500px;
+    width:1310px;
+   background-image: url("pics/pic10.jpg");
+    padding:1px;
+    box-sizing: border-box;
+
+}
+#cevent {
+
+    margin-top: 20px;
+    height: 500px;
+    width: 650px;
+    background-color: white;
+}
+
+#vevent{
+    margin-top: 20px;
+    height: 500px;
+    width: 650px;
+
+    background-color: black;
+
+}
+
+        #ccevent {
+
+            margin-top: 20px;
+            height: 500px;
+            width: 650px;
+            background-color: black;
+        }
+
+        #vvevent{
+            margin-top: 20px;
+            height: 500px;
+            width: 650px;
+
+            background-color: white;
+
+        }
+/*
+        #levent{
+            margin-top: 20px;
+            height: 300px;
+            width: 600px;
+            background-color: #2aabd2;
+        }
+        */
+        @-webkit-keyframes example {
+
+            from{
+                margin-left: 0px;
+            }
+            to{
+                margin-left: 100px;
+            }
+        }
+
+        @-webkit-keyframes example2 {
+            0%{
+                margin-left:0px ;
+            }
+            50%{
+                margin-left:40px ;
+
+            }
+            100%{
+                margin-left:100px;
+            }
+        }
+    /*  @-webkit-keyframes example3 {
+            0%{
+                margin-left:0px ;
+            }
+            50%{
+                margin-left:100px ;
+
+            }
+            100%{
+                margin-left:160px;
+            }
+        }*/
+        #connect{
+            height:300px;
+            width:1300px;
+            background-image: url("pics/d13.jpg");
+        }
+        .fb{margin-left: 20px;
+            font-size: 20px;
+
+            color:
+        }
+        #form{height:280px;
+            width:600px;
+            background-image: url("pics/d13.jpg");
+          margin-left: 50px;
+            margin-top: 10px;
+
+        }
+
+        #form2{
+            margin-top: 10px;
+            height:280px;
+            width:400px;
+            background-image: url("pics/d13.jpg");
+
+        }
+        .pic{
+            margin-left: -20px;
+        }
+        #info{
+            height:150px;
+            width:350px;
+            background-image: url("pics/d13.jpg");
+        }
+        #fm{
+            background-image: url("pics/d13.jpg");
+            height:50px;
+            width:350px
+        }
+
+.my{
+    height:40px;
+    width:40px;
+    margin-left: 20px;
+}
+        #info{
+            font-size:18px ;
+        }
+        #about{
+            margin-left :500px;
+            font-size: 4em;
+            color : maroon;
+            font-weight: bold;
+        }
+        #about-que{
+            margin-left:250px;
+            font-size : 2em;
+
+        }
+        #about-content{
+            margin-left: 10px;
+            padding:10px;
+            font-size: 27px;
+
+        }
+        #inlower{
+            height: 400px;
+            width: auto;
+            background-image:url("pics/d13.jpg")
+        }
+
+#abt{
+    background-image: url("pics/d10.jpg");
+    height: 3000px;
+    width:auto;
+}
+        .outer{
+            background-color: blueviolet;
+            margin-top: 400px;
+        }
+        .combo{
+            display: flex;
+            flex-direction: row;
+        }
+        .blck{
+            background-color: black;
+            height:500px;
+            width:650px;
+        }
+        .wht{
+            background-color: white;
+            height:500px;
+            width:650px;
+        }
+        #img1{
+            height: 300px;
+            width:300px;
+margin-left: 15px;
+            position: absolute;
+overflow: hidden;
+            ;
+        }
+        #img1 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #img1 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #img2{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+        #img2 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #img2 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+
+        #img3{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+        #img3 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #img3 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #cont{
+            position: relative;
+            margin-left: 100px;
+            background-image: url("pics/d13.jpg");
+            height:500px;
+            width:500px;
+            padding:1px;
+
+
+        }
+        .prv{position: absolute;
+            margin-left: 100px;
+            margin-top: 150px;
+            z-index:10;
+            color:white;
+
+        }
+
+        .next{position: absolute;
+            margin-left: 1000px;
+            margin-top: 150px;
+            z-index:10;
+
+            color:white;
+
+        }
+        .prv:hover{
+            background-color: #0f0f0f;
+
+        }
+        .next:hover{
+            background-color: #0f0f0f;
+
+        }
+        #cimg1{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            margin-left: 15px;
+            position: absolute;
+        ;
+        }
+        #cimg1 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #cimg1 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #cimg2{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+        #cimg2 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #cimg2 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #cimg3{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+
+        #cimg3 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #cimg3 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #ccont{
+
+            position: relative;
+            margin-left: 100px;
+            background-image: url("pics/d13.jpg");
+            height:500px;
+            width:500px;
+            padding:1px;
+
+
+        }
+        #ccimg1{
+           height: 300px;
+            width:300px;
+            margin-left: 15px;
+            overflow: hidden;
+            position: absolute;
+        ;
+        }
+        #ccimg1 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #ccimg1 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #ccimg2{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+        #ccimg2 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #ccimg2 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #ccimg3{
+            overflow: hidden;
+            height: 300px;
+            width:300px;
+            position: absolute;
+            margin-left: 15px;
+            display: none;
+        }
+        #ccimg3 img{
+            height:300px ;
+            width:300px;
+
+        }
+        #ccimg3 img:hover{
+            height:330px;
+            width:330px;
+
+        }
+        #cccont{
+
+            position: relative;
+            margin-left: 100px;
+            background-image: url("pics/d13.jpg");
+            height:500px;
+            width:500px;
+            padding:1px;
+
+
+        }
+
+        .wrap{
+            display: flex;
+flex-direction: row;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="back_image">
+    <div id="nav" class="row">
+        <div id="logo" class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><span id="logo_text" style=" font-size:20px;font-family: 'Black Ops One', cursive;">E-event</span></div>
+        <nav class="col-xs-5 col-sm-5 col-md-5 col-lg-5  col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" >
+            <a href="#" ><mark>ABOUT</mark></a>&emsp;
+            <a href="#"><mark>CONTACT US</mark></a>&emsp;
+            <a href="#"><mark>LOGIN</mark></a>&emsp;
+            <a href="#"><mark>FEEDBACK</mark></a>
+        </nav>
+    <div id="try" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-2
+    col-lg-offset-2 font-effect-shadow-multiple  font-effect-3d">  WELCOME --PUJASVI--</div>
+
+    </div>
+    <div id="side" class="font-effect-shadow-multiple  font-effect-3d"> Create  events</div>
+
+    <div id="side2" class="font-effect-shadow-multiple  font-effect-3d"> View events</div>
+<!--
+    <div id="side3">Let you view events of your intrest</div>-->
+</div>
+<div id="lower" class="row" >
+<div id="abt">
+    <div class="combo">
+    <div class="blck" ></div>
+    <div class="wht"></div>
+    </div>
+    <div class="combo">
+
+        <div class="wht"></div>
+        <div class="blck" ></div>
+    </div>
+<!--<div id="cevent" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "></div>
+<div id="vevent"  class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "></div>
+<br>
+    <div id="ccevent" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "></div>
+    <div id="vvevent"  class="col-xs-6 col-sm-6 col-md-6 col-lg-6 "></div>
+its
+-->
+    <br>
+
+    <div id="inlower">
+        <div id="about" class="font-effect-shadow-multiple  font-effect-3d">About Us</div>
+        <div id="about-que" style="font-family: 'Bree Serif', serif;">Aren’t you able to know your nearby Events that are for you?
+            <br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Want to Advertise your Event on a Large scale?
+            <br>     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;So Congrats ,you are at the right place !!!!
+            <br><br></div>
+        <div id="about-content" style="font-family: 'Kaushan Script', cursive;">
+            Motto of E-Event is to Let you know about your interested events that are going to held in your locality.
+            Just select your area and interested event category and we will let you know the events for you.
+            You can also Advertise your Event on a massive scale by creating your own Event on our website.
+            So for what are you waiting ? Celebrate the event by creating it ,inviting more people or by attending the event.
+        </div>
+    </div>
+
+
+
+
+    <br>
+
+
+<div id="cconct" style="height:470px;width:auto">
+        <h1 style="margin-left:20px; font-size: 60px ; " class="font-effect-shadow-multiple  font-effect-3d">CONNECT</h1>
+        <hr style="height:10px;width: 1300px;background-color: gray ">
+        <div id="connect" >
+
+
+            <div id="form" class="  col-xs-4 col-sm-4 col-md-4 col-lg-4 " >
+                <br><br>
+                <div class=" row">
+                    <div class="fb col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1">Name</div>
+                    <div class="fb1 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1 ">
+                        <input type="text"  ></div>
+                    <div class=" pic col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-user"></div>
+                </div>
+                <br>
+                <div class=" row">
+
+                    <div class="fb col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1">E-mail</div>
+                    <div class="fb1 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1"><input type="text"></div>
+                    <div class=" pic col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-envelope"></div>
+                </div>
+                <br>
+                <div class=" row">
+                    <div class="fb col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1">Message</div>
+
+                    <div class="fb1 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1"><textarea rows="4" cols="20"></textarea></div>
+                    <div class=" pic col-xs-1 col-sm-1 col-md-1 col-lg-1 glyphicon glyphicon-comment"></div>
+                </div>
+                <br>
+
+                <button type="submit" style="margin-left:400px ">Send</button>
+            </div>
+            <div id="form2" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-lg-offset-1
+        col-xs-offset-1 col-md-offset-1 col-sm-offset-1" >
+                <h3><b>Follow us:</b></h3>
+
+                <div id="info">
+                    If you want to know the regular details of your
+                    interested category events then you can follow us on facebook, linkedin, twitter ,youtube, google+.
+                </div>
+
+                <div id="fm" class=>
+                    <i class=" my fa-2x fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class=" my  fa-2x fa fa-linkedin-square" aria-hidden="true"></i>
+
+                    <i class=" my fa-2x fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class=" my  fa-2x fa fa-youtube-square" aria-hidden="true"></i>
+                    <i class=" my fa-2x fa fa-google-plus-square" aria-hidden="true"></i>
+
+
+                </div>
+                </div>
+            </div>
+
+        </div>
+<div class="wrapwrap">
+    <h1 style="margin-left:20px; font-size: 60px ; " class="font-effect-shadow-multiple  font-effect-3d">UPCOMING EVENTS</h1>
+    <hr style="height:10px;width: 1300px;background-color: gray ">
+    <br><br>
+
+<div class="wrap">
+
+    <div id="cont">
+
+        <div id="img1">
+            <img src="pics/rio2.jpg" ><br>
+           </div>
+       <div id="img2">
+            <img src="pics/d1.png">
+
+       </div>
+        <div id="img3">
+<img src="pics/d2.jpg" >
+
+        </div>
+
+
+        <button class="prv"  onclick="slide(-1)">&lt;</button>
+        <button class="next" onclick="slide(1)">&gt;</button>
+            <!--<a class="prv" onclick="slide(-1)"> &lt;</a>
+                    <a class="next" onclick="slide(1)">&gt; </a>
+            -->
+ <div style="margin-top:300px; background-image: url(pics/d13.jpg); ;height:200px ">chl pd</div>
+
+    </div>
+    <div id="ccont">
+
+
+        <div id="cimg1">
+            <img src="pics/d3.jpg" >
+            details abt rio olymics.
+        </div>
+        <div id="cimg2">
+            <img src="pics/d4.png" >
+            details abt  discover ur briliance.
+        </div>
+        <div id="cimg3">
+            <img src="pics/d5.jpg" >
+            details abt csm training
+        </div>
+        <div style="margin-top:300px; background-image: url(pics/d13.jpg); ;height:200px ">chl pd</div>
+ </div>
+    <div id="cccont">
+
+
+        <div id="ccimg1">
+            <img src="pics/d6.png" >
+            details abt rio olymics.
+        </div>
+        <div id="ccimg2">
+            <img src="pics/d7.jpg" >
+            details abt  discover ur briliance.
+        </div>
+        <div id="ccimg3">
+            <img src="pics/d8.png" >
+            details abt csm training
+        </div>
+        <div style="margin-top:300px; background-image: url(pics/d13.jpg) ;height:200px ">chl pd</div>
+    </div>
+    </div>
+</div>
+    </div>
+    </div>
+<br><br>
+<script>
+    var count=1;
+    function slide(no){
+
+        slideshow(no);
+    }
+
+    function slideshow(no){
+        console.log("strt count is "+count);
+       count=count+no;
+        console.log("button clicked"+count);
+        if(count>2)
+        {count=count-3 ;}
+         else if(count<0)
+        { count=count+3;}
+console.log("count is"+count);
+        if(count==0){console.log("1 called");
+            document.getElementById("img1").style.display="block";
+            document.getElementById("img2").style.display="none";
+            document.getElementById("img3").style.display="none";
+
+            document.getElementById("cimg1").style.display="block";
+            document.getElementById("cimg2").style.display="none";
+            document.getElementById("cimg3").style.display="none";
+
+            document.getElementById("ccimg1").style.display="block";
+            document.getElementById("ccimg2").style.display="none";
+            document.getElementById("ccimg3").style.display="none";
+        }
+        if(count==1){
+            console.log("2 called");
+            document.getElementById("img2").style.display="block";
+            document.getElementById("img1").style.display="none";
+            document.getElementById("img3").style.display="none";
+
+            console.log("2 called");
+            document.getElementById("cimg2").style.display="block";
+            document.getElementById("cimg1").style.display="none";
+            document.getElementById("cimg3").style.display="none";
+
+            console.log("2 called");
+            document.getElementById("ccimg2").style.display="block";
+            document.getElementById("ccimg1").style.display="none";
+            document.getElementById("ccimg3").style.display="none";
+
+
+        }
+
+        if(count==2){
+            console.log("3 called");
+            document.getElementById("img3").style.display="block";
+            document.getElementById("img1").style.display="none";
+            document.getElementById("img2").style.display="none";
+            document.getElementById("cimg3").style.display="block";
+            document.getElementById("cimg1").style.display="none";
+            document.getElementById("cimg2").style.display="none";
+
+            document.getElementById("ccimg3").style.display="block";
+            document.getElementById("ccimg1").style.display="none";
+            document.getElementById("ccimg2").style.display="none";
+
+        }
+    }
+
+
+</script>
+<script src="index.js"></script>
+    <script src=" AIzaSyAknim_dNU0NOjj9lVv2NnpzLbQdXaHcv8 "></script>
+</body>
+</html>
