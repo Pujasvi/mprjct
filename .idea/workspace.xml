@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b03535-c917-4b43-be3c-f0db852f21ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/d9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/pic4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/rio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/untitled15.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font-awesome-4.6.3/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled15.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -376,16 +290,16 @@
       <workItem from="1471236613005" duration="84000" />
       <workItem from="1471324862065" duration="1130000" />
       <workItem from="1471353335124" duration="2930000" />
-      <workItem from="1471356310844" duration="4947000" />
+      <workItem from="1471356310844" duration="5106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81244000" />
+    <option name="totallyTimeSpent" value="81403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="24" width="1295" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -393,7 +307,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34230193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34230193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
