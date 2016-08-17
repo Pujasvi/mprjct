@@ -4,11 +4,11 @@
 
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="jquery.js"></script>
+    <script src="./jquery.js"></script>
 
-    <link rel="stylesheet" href= "css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="./font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href= "../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Rancho|Dancing+Script|Black+Ops+One|Kaushan+Script|Ewert|Monofett|Bree+Serif&effect=shadow-multiple|3d-float|3d">
 
@@ -58,7 +58,7 @@
         }
         #back_image{
             padding:1px;
-            background-image: url("./pics/pic2.jpg");
+            background-image: url("../pics/pic2.jpg");
             height:700px;
             width:1300px;
             background-size:cover;
@@ -185,7 +185,7 @@
         #connect{
             height:300px;
             width:1300px;
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
         }
         .fb{margin-left: 20px;
             font-size: 20px;
@@ -194,7 +194,7 @@
         }
         #form{height:280px;
             width:600px;
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
             margin-left: 50px;
             margin-top: 10px;
 
@@ -204,7 +204,7 @@
             margin-top: 10px;
             height:280px;
             width:400px;
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
 
         }
         .pic{
@@ -213,10 +213,10 @@
         #info{
             height:150px;
             width:350px;
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
         }
         #fm{
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
             height:50px;
             width:350px
         }
@@ -249,11 +249,11 @@
         #inlower{
             height: 400px;
             width: auto;
-            background-image:url("pics/d13.jpg")
+            background-image:url("../pics/d13.jpg")
         }
 
         #abt{
-            background-image: url("pics/d10.jpg");
+            background-image: url("../pics/d10.jpg");
             height: 3000px;
             width:auto;
         }
@@ -333,23 +333,29 @@
         #cont{
             position: relative;
             margin-left: 100px;
-            background-image: url("pics/d13.jpg");
+            background-image: url("../pics/d13.jpg");
             height:500px;
-            width:500px;
+            width:320px;
             padding:1px;
 
 
         }
         .prv{position: absolute;
-            margin-left: 100px;
+            margin-left: -50px;
             margin-top: 150px;
             z-index:10;
             color:white;
+            height:50px;
+            width:50px;
+            border-radius: 10px;
 
         }
 
         .next{position: absolute;
-            margin-left: 1000px;
+            height:50px;
+            width:50px;
+            border-radius: 10px;
+            margin-left: 1060px;
             margin-top: 150px;
             z-index:10;
 
@@ -422,10 +428,10 @@
         #ccont{
 
             position: relative;
-            margin-left: 100px;
-            background-image: url("pics/d13.jpg");
+            margin-left: 50px;
+            background-image: url("../pics/d13.jpg");
             height:500px;
-            width:500px;
+            width:320px;
             padding:1px;
 
 
@@ -487,10 +493,10 @@
         #cccont{
 
             position: relative;
-            margin-left: 100px;
-            background-image: url("pics/d13.jpg");
+            margin-left: 50px;
+            background-image: url("../pics/d13.jpg");
             height:500px;
-            width:500px;
+            width:330px;
             padding:1px;
 
 
@@ -709,14 +715,14 @@
                         <br><br>AGE* :
                         <br>Any more Details about you:
                     </div> <div id ="signup_fill-fields"><br>
-                        <input type="text" name="user-name" autocomplete="on" autofocus="on" required> <br><br>
-                        <input type="text" name="phone" autocomplete="on" required><br><br>
-                        <input type="email" name="id" required autocomplete="on"><br><br>
+                        <input type="text" name="user-name" autocomplete="on" autofocus="on" required id="name"> <br><br>
+                        <input type="text" name="phone" autocomplete="on" required id="phn"><br><br>
+                        <input type="email" name="id" required autocomplete="on" id="id"><br><br>
                         <input type="password" name="pass" required><br><br>
 
-                        <input type="number" name="age" required><br>
+                        <input type="number" name="age" required id="age"><br>
 
-                        <textarea rows="8" cols="25" wrap="hard"></textarea>
+                        <textarea rows="8" cols="25" wrap="hard" id="inf"></textarea>
                         <br><input type="button" value="SIGN UP" onclick="sp()">
 
                     </div>
@@ -730,7 +736,7 @@
                 <div id="inr" style="background-color: #2aabd2">
                     <div id="close" onclick="cls() " style="margin-left:230px">X</div>
                     <form  method="post" id="log">
-                        USERNAME :<input type="text" name="name" autocomplete="on" autofocus="on" required>
+                        USERNAME :<input type="text" name="name" autocomplete="on" autofocus="on" required id="user-name">
                         <br><br> PASSWORD :<input type="password" name="pass" required>
                         <br><br>
                         <input type="button" value="Login" onclick="lg()">
@@ -776,19 +782,19 @@
                             <br><br>Number of people(Gathering) :
                             <br><br>Any more Details:
                         </div> <div id ="fill-fields"><br>
-                            <input type="text" name="user-name" autocomplete="on" autofocus="on" required> <br><br>
-                            <input type="text" name="phone" autocomplete="on" required><br><br>
-                            <input type="email" name="id" required autocomplete="on"><br><br>
-                            <input type="text" name="evntname" required><br><br>
-                            <input type="checkbox" >religious &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <input type="checkbox" >commercial
-                            <input type="checkbox" >conference &nbsp;&nbsp;&nbsp;
-                            <input type="checkbox" >competition
-                            <input type="checkbox" >other<br>
-                            if OTHER then please specify <input type="text" value="other"><br><br>
-                            <input type="number" name="age" required><br><br>
-                            <input type="number" name="people" step="10" min="50" ><br><br>
-                            <textarea rows="7" cols="25" wrap="hard"></textarea>
+                            <input type="text" name="user-name" autocomplete="on" autofocus="on" required id="urname"> <br><br>
+                            <input type="text" name="phone" autocomplete="on" required id="no"><br><br>
+                            <input type="email" name="id" required autocomplete="on" id="eid"><br><br>
+                            <input type="text" name="evntname" required id="ename"><br><br>
+                            <input type="checkbox" id="rel">religious &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" id="com">commercial
+                            <input type="checkbox" id="conf">conference &nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" id="comp" >competition
+                            <input type="checkbox" id="othr">other<br>
+                            if OTHER then please specify <input type="text" value="other" id="othr2"><br><br>
+                            <input type="number" name="age" required id="ag"><br><br>
+                            <input type="number" name="people" step="10" min="50" id="ppl"><br><br>
+                            <textarea rows="7" cols="25" wrap="hard" id="txt"></textarea>
                             <br><input type="button" value="submit" onclick="cr()">
 
                         </div>
@@ -901,14 +907,14 @@
                 <div id="cont">
 
                     <div id="img1">
-                        <img src="pics/rio2.jpg" ><br>
+                        <img src="../pics/rio2.jpg" ><br>
                     </div>
                     <div id="img2">
-                        <img src="pics/d1.png">
+                        <img src="../pics/d1.png">
 
                     </div>
                     <div id="img3">
-                        <img src="pics/d2.jpg" >
+                        <img src="../pics/d2.jpg" >
 
                     </div>
 
@@ -925,15 +931,15 @@
 
 
                     <div id="cimg1">
-                        <img src="pics/d3.jpg" >
+                        <img src="../pics/d3.jpg" >
                         details abt rio olymics.
                     </div>
                     <div id="cimg2">
-                        <img src="pics/d4.png" >
+                        <img src="../pics/d4.png" >
                         details abt  discover ur briliance.
                     </div>
                     <div id="cimg3">
-                        <img src="pics/d5.jpg" >
+                        <img src="../pics/d5.jpg" >
                         details abt csm training
                     </div>
                     <div style="margin-top:300px; background-image: url(pics/d13.jpg); ;height:200px ">chl pd</div>
@@ -942,15 +948,15 @@
 
 
                     <div id="ccimg1">
-                        <img src="pics/d6.png" >
+                        <img src="../pics/d6.png" >
                         details abt rio olymics.
                     </div>
                     <div id="ccimg2">
-                        <img src="pics/d7.jpg" >
+                        <img src="../pics/d7.jpg" >
                         details abt  discover ur briliance.
                     </div>
                     <div id="ccimg3">
-                        <img src="pics/d8.png" >
+                        <img src="../pics/d8.png" >
                         details abt csm training
                     </div>
                     <div style="margin-top:300px; background-image: url(pics/d13.jpg) ;height:200px ">chl pd</div>
@@ -964,17 +970,21 @@
 
     lg=function(){
         console.log("clked");
+
+        sub();
         document.getElementById('inr').style.display="none";
 
     }
     sp=function(){
         console.log("clked");
+        sinup();
         document.getElementById("signupid").style.display="none";
 
 
     }
     cr=function(){
         console.log("clked");
+        create();
         document.getElementById("my").style.display="none";
     }
 /*

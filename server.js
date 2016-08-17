@@ -10,3 +10,18 @@ app.use(bodyParser.json());
 app.listen(1200,function(){
     console.log("server running on port 1200");
 })
+
+
+app.post('/create',function(req,res) {
+    console.log("post " + req.body.name + ' ' + req.body.age);
+    var newTodo = {
+        name: req.body.name,
+        age: req.body.age,
+
+    };
+    console.log("index test  " + newTodo.name + newTodo.age);
+    /*db.addTodo(newTodo, function (result) {
+        res.send(result);
+
+    })*/
+})
