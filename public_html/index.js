@@ -29,16 +29,36 @@ $(function () {
 
 });
 //signup values;
+
 sinup=function(){
     console.log("clicked sign up");
-   var name= $('#name').val();
+    var name= $('#name').val();
     var phne= $('#phn').val();
     var eid= $('#id').val();
     var age= $('#age').val();
     var info=$('#inf').val();
     //console.log("info is "+name+phne+eid+age+info);
 
+    console.log("clicked sub");
+    user=$('#name').val();
+    console.log("sub m value "+user);
+    $.post('/sign', {
+
+            name: name,
+            phone_number: phne,
+            Email_id: eid,
+            age: age,
+            details: info,
+        },
+        function(data, status) {
+
+            console.log("status" +status);
+        });
+
+
 }
+
+
 create =function(){
     var uname= $('#urname').val();
     var phone= $('#no').val();

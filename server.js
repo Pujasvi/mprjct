@@ -28,6 +28,16 @@ app.post('/login',function(req,res) {
 
     })*/
 })
+app.post('/sign',function(req,res) {
+    console.log("post " + req.body.name + ' ' + req.body.phone_number  +' ' + req.body.Email_id +' ' +req.body.age);
+    var entering = {
+        name: req.body.name,
+        age: req.body.age,
+        phone: req.body.phone_number,
+        mail:req.body.Email_id,
+
+
+    };})
 
 app.post('/create',function(req,res) {
     console.log("post " + req.body.name + ' ' + req.body.phone+ req.body.eeid+ req.body.ename);
