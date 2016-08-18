@@ -7,13 +7,30 @@ app.use('/',express.static('./public_html'));
 const bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
-app.listen(1700,function(){
-    console.log("server running on port 1700");
+const md5=require('md5');
+
+app.listen(1800,function(){
+    console.log("server running on port 1800");
 })
 
 
+app.post('/login',function(req,res) {
+    console.log("post " + req.body.name + ' ' + req.body.pswrd);
+    var newTodo = {
+        name: req.body.name,
+        pswrd: req.body.pswrd,
+        hash:md5('pswrd')
+
+    };
+    console.log("index test  " + newTodo.name + newTodo.hash);
+    /*db.addTodo(newTodo, function (result) {
+        res.send(result);
+
+    })*/
+})
+
 app.post('/create',function(req,res) {
-    console.log("post " + req.body.name + ' ' + req.body.age);
+    console.log("post " + req.body.name + ' ' + req.body.phone+ req.body.eeid+ req.body.ename);
     var newTodo = {
         name: req.body.name,
         age: req.body.age,
@@ -21,7 +38,7 @@ app.post('/create',function(req,res) {
     };
     console.log("index test  " + newTodo.name + newTodo.age);
     /*db.addTodo(newTodo, function (result) {
-        res.send(result);
+     res.send(result);
 
-    })*/
+     })*/
 })

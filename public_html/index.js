@@ -55,6 +55,19 @@ create =function(){
     var txt= $('#txt').val();
    // console.log(" create value is"+ uname +''+phone+eeid+ename+rel+com+conf+comp+othr+othr2+ag+ppl+txt);
 
+    $.post('/create', {
+
+        name:uname,
+       phone:phne,
+        eeid:eeid,
+        ename:ename,
+
+
+    }, function (data, status) {
+
+        console.log("status" +status);
+    });
+
 }
 
 
@@ -62,11 +75,12 @@ create =function(){
 sub =function(){
     console.log("clicked sub");
     user=$('#user-name').val();
-    console.log("sub m value "+user);
-    $.post('/create', {
+    pswrd=$('#pswrd').val();
+    console.log("sub m value "+user +pswrd);
+    $.post('/login', {
 
         name:user,
-        age:19
+        pswrd:pswrd
     }, function (data, status) {
 
         console.log("status" +status);
