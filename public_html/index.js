@@ -9,14 +9,14 @@ $(function () {
     function chng_img(){
         console.log("chng imge called");
         var image_id=$("#back_image");
-        image_id.css('background-image','url(../pics/pic4.jpg)');
+        image_id.css('background-image','url(pic4.jpg)');
         image_id.css("background-size","100% 120%");
 
     }
     function chng_img2(){
         console.log("chng imge called");
         var image_id=$("#back_image");
-        image_id.css('background-image','url(../pics/pic3.jpg)');
+        image_id.css('background-image','url(pic3.jpg)');
         image_id.css("background-size","100% 120%");
 
     }
