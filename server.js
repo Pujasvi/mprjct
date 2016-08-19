@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 const md5=require('md5');
 
-app.listen(1800,function(){
-    console.log("server running on port 1800");
+app.listen(1900,function(){
+    console.log("server running on port 1900");
 })
 
 
@@ -29,15 +29,19 @@ app.post('/login',function(req,res) {
     })*/
 })
 app.post('/sign',function(req,res) {
-    console.log("post " + req.body.name + ' ' + req.body.phone_number  +' ' + req.body.Email_id +' ' +req.body.age);
+    console.log("post " + req.body.name + ' ' + req.body.phone_number  +' ' + req.body.Email_id +' '  +req.body.pd1);
     var entering = {
         name: req.body.name,
-        age: req.body.age,
+
         phone: req.body.phone_number,
+        pd1:req.body.pd1,
+        hash:md5('pd1'),
         mail:req.body.Email_id,
 
 
-    };})
+    };
+console.log("paswrd in sign up is"+entering.hash);
+})
 
 app.post('/create',function(req,res) {
     console.log("post " + req.body.name + ' ' + req.body.phone+ req.body.eeid+ req.body.ename);

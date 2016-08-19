@@ -618,6 +618,9 @@
              user-select: none;
  */
         }
+        #chk{
+            color:red;
+        }
 
         /* The actual popup */
         .popup .popuptext {
@@ -709,18 +712,21 @@
                     <button class="close" onclick="div_hide()">X</button>
                     <form  method ="post"><div id="form3"><div id="signup_fields"><br> Username* :
                         <br><br>Phone number* :
-                        <br><br><br>Email id* :
-                        <br><br><br>Password* :
+                        <br><br>Email id* :
+                        <br><br>Password* :
+                        <br><br>Re-enter password*:
 
-                        <br><br>AGE* :
-                        <br>Any more Details about you:
+
+                        <br><br>Any more Details about you:
                     </div> <div id ="signup_fill-fields"><br>
                         <input type="text" name="user-name" autocomplete="on" autofocus="on" required id="name"> <br><br>
                         <input type="text" name="phone" autocomplete="on" required id="phn"><br><br>
                         <input type="email" name="id" required autocomplete="on" id="id"><br><br>
-                        <input type="password" name="pass" required><br><br>
+                        <input type="password" name="pass" required id="pd1"><br><br>
+                        <input type="password" requires id="pd2"><br><br>
+                        <div id="chk"></div>
 
-                        <input type="number" name="age" required id="age"><br>
+
 
                         <textarea rows="8" cols="25" wrap="hard" id="inf"></textarea>
                         <br><input type="button" value="SIGN UP" onclick="sp()">
@@ -778,7 +784,7 @@
                             <br><br>Event-name :
                             <br><br>Event-Type :
                             <br><br>
-                            <br>For-AGE :
+                            <br>For-AGE UPTO:
                             <br><br>Number of people(Gathering) :
                             <br><br>Any more Details:
                         </div> <div id ="fill-fields"><br>
@@ -978,8 +984,18 @@
     }
     sp=function(){
         console.log("clked");
-        sinup();
-        document.getElementById("signupid").style.display="none";
+        var val=-1;
+        sinup(function(val){
+            console.log("val is"+val);
+
+            if(val==0){
+                $('#chk').html(" password  did not match");
+            }
+            if(val==1) {
+                console.log("val is insiode if"+ val);
+                document.getElementById("signupid").style.display = "none";
+            }
+        });
 
 
     }

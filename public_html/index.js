@@ -30,34 +30,44 @@ $(function () {
 });
 //signup values;
 
-sinup=function(){
+sinup=function(cb) {
     console.log("clicked sign up");
-    var name= $('#name').val();
-    var phne= $('#phn').val();
-    var eid= $('#id').val();
-    var age= $('#age').val();
-    var info=$('#inf').val();
+    var name = $('#name').val();
+    var phne = $('#phn').val();
+    var eid = $('#id').val();
+    var pd1 = $('#pd1').val();
+    var pd2 = $('#pd2').val();
+
+
+//$('#chk').HTML='<b>'+"password not match"+'<b>';
+
+    var info = $('#inf').val();
     //console.log("info is "+name+phne+eid+age+info);
 
-    console.log("clicked sub");
-    user=$('#name').val();
-    console.log("sub m value "+user);
+    console.log("clicked signup");
+    user = $('#name').val();
+    console.log("signup m value " + user);
+
+
     $.post('/sign', {
 
             name: name,
             phone_number: phne,
             Email_id: eid,
-            age: age,
+            pd1: pd1,
             details: info,
         },
-        function(data, status) {
+        function (data, status) {
 
-            console.log("status" +status);
+            console.log("status" + status);
         });
-
-
+    if (pd1 != pd2) {
+        cb("0");
+    }
+    else {
+        cb("1");
+    }
 }
-
 
 create =function(){
     var uname= $('#urname').val();
@@ -106,3 +116,12 @@ sub =function(){
         console.log("status" +status);
     });
 }
+
+/*
+check =function(){
+    pd1=$('#pd1').val();
+    pd2=$('#pd2').val();
+    id(pd1!=pd2){
+        console.log("not match")
+    }
+}*/
